@@ -1,0 +1,191 @@
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-white: #FFFFFF;
+  --basic-azure: #81B3D2;
+  --basic-dark-azure: #669EC0;
+  --basic-extra-dark-azure: #5496BD;
+  --basic-gray:  #EEEEEE;
+  --basic-light-gray: #F2F2F2;
+  --basic-dark-gray: #EBEBEB;
+  --basic-brown: #766357;
+  --basic-dark-brown: #604E43;
+  --basic-extra-dark-brown: #503E33;
+}
+
+/*Main castomization*/
+
+body {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+ text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.reasons-list,
+.activities {
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+/*Site navigation in main page*/
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  /*background: url("../img/background photo-maintop.jpg") 100% 100% no-repeat;*/
+  background-size: cover;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-black);
+}
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: var(--basic-brown);
+  background-color: var(--basic-white);
+}
+
+/* Reasons */
+
+.container h1 {
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+}
+.container h2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+
+.reasons-list {
+  list-style: none;
+}
+
+.reasons-item h3 {
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.reasons-item .n1 {
+  color: var(--basic-white);
+  background-color: var(--basic-azure);
+  background-position: center, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+
+.reasons-item .n2 {
+  color: var(--basic-white);
+  background-color: var(--basic-azure);
+  background-position: center, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+
+.n3-5 {
+  background-color: var(--basic-gray);
+  background-position: center, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+
+.reasons-item p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+/* Activities */
+
+.activity-item {
+  list-style: none;
+}
+
+.activities .accomodation,
+.activities .eat,
+.activities .gifts,
+.activity-item {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: inherit;
+  text-align: center;
+}
+
+/*booking*/
+
+.booking h2 {
+  font-size: 30px;
+  font-weight: inherit;
+  line-height: 24px;
+  text-align: center;
+}
+
+.booking-info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  /*background: url("../img/main-map.jpg") 100% 100% no-repeat;*/
+  background-size: cover;
+}
+
+/*footer on main page*/
+.social-item {
+  list-style: none;
+}
+
+.footer-contacts .footer-inst,
+.footer-contacts .footer-phone {
+  color: var(--basic-black);
+  font-size: 21px;
+  font-weight: inherit;
+  line-height: 26px;
+}
+
+.footer-home-link a {
+  color: var(--basic-black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
