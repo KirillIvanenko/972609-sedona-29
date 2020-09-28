@@ -401,16 +401,18 @@ button {
 }
 
 
-.hotels-item h3 {
+h3 .hotel-name {
   font-size: 21px;
   line-height: 26px;
+  color: var(--basic-black)
 }
 
-.hotels-item h3:hover {
+.hotels-item .hotel-name:hover {
   color: var(--basic-azure);
+  background-color: var(--basic-white)
 }
 
-.hotels-item h3:active {
+.hotels-item .hotel-name:active {
   color: rgba(0,0,0,0.3);
 }
 
